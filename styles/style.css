@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+bady {
+  font-family: "Azeret Monos";
+}
+/* shared styles */
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  /* line-height: 45px; */
+}
+.sub-title {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #0D1321;
+}
+.btn-primary {
+  width: 205px;
+  height: 65px;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background-color: #0D1321;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+}
+.btn-secondary {
+  width: 150px;
+  height: 45px;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+/* banner styles */
+.banner-container {
+  width: 1440px;
+  height: 650px;
+  border: 2px solid red;
+  margin: 120px auto;
+  background-image: url(../assets/Hero-bg.png);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner {
+  text-align: center;
+}
