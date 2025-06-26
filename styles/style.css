@@ -28,7 +28,8 @@ bady {
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
-  color: #0D1321;
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
 }
 .btn-primary {
   width: 205px;
@@ -82,4 +83,36 @@ bady {
 }
 .why-container p {
   margin-bottom: 30px;
+}
+/* inspiration section sytles */
+.inspiration-container {
+  width: 1140px;
+  height: 770px;
+  margin: 120px auto;
+}
+.inspiration-video {
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+/* current target styles */
+.current-target-container {
+  border: 2px solid red;
+  margin: 1140px;
+  height: 460px;
+  margin: 120px auto;
+  text-align: center;
+}
+.targets {
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.target {
+  width: 364px;
+  height: 300px;
+  padding: 40px;
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
 }
