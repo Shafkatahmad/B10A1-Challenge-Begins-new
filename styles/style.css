@@ -22,7 +22,6 @@ bady {
 .card-title {
   font-size: 24px;
   font-weight: 700;
-  color: #0D1321B3;
 }
 .description {
   font-size: 16px;
@@ -97,17 +96,17 @@ bady {
 }
 /* current target styles */
 .current-target-container {
-  border: 2px solid red;
-  margin: 1140px;
+  width: 1140px;
   height: 460px;
   margin: 120px auto;
-  text-align: center;
 }
 .targets {
-  border: 2px solid yellow;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
   width: 100%;
+  margin: 45px 0;
 }
 .target {
   width: 364px;
@@ -115,4 +114,8 @@ bady {
   padding: 40px;
   background: rgba(255, 76, 30, 0.05);
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;  
 }
