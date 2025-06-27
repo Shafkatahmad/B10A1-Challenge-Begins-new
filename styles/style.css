@@ -50,6 +50,9 @@ bady {
   text-align: center;
   opacity: 0.7;
 }
+a {
+  text-decoration: none;
+}
 /* banner styles */
 .banner-container {
   width: 1440px;
