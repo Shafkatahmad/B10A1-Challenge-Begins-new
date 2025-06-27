@@ -107,6 +107,7 @@ bady {
   gap: 24;
   width: 100%;
   margin: 45px 0;
+  border: 2px solid red;
 }
 .target {
   width: 364px;
@@ -118,4 +119,29 @@ bady {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;  
+}
+/* next target styles */
+.next-target-container {
+  width: 1140px;
+  height: 870px;
+  margin: 120px auto;
+}
+.next-targets {
+  display: flex;
+  width: 100%;
+  height: 220px;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  margin: 24px 0;
+}
+.next-targets img {
+  width: 105px;
+  height: 105px;
+}
+.next-target {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
