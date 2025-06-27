@@ -107,7 +107,6 @@ bady {
   gap: 24;
   width: 100%;
   margin: 45px 0;
-  border: 2px solid red;
 }
 .target {
   width: 364px;
@@ -146,7 +145,7 @@ bady {
   align-items: flex-start;
 }
 /* support styles */
-.support-container {
+.footer-support-container {
   width: 1140px;
   height: 310px;
   margin: 120px auto;
@@ -164,7 +163,6 @@ bady {
   border-radius: 8px;
   border: none;
   margin-right: 10px;
-  
 }
 .support-btn-secondary {
   width: 120px;
@@ -175,5 +173,16 @@ bady {
   border-radius: 8px;
   font-size: 20px;
   font-weight: 600;
- 
+}
+.footer-author {
+  width: 1140px;
+  height: 35px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-author-icon {
+  width: 35px;
+  height: 35px;
 }
